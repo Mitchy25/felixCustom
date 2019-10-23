@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include felixcustom *.css
+recursive-include felixcustom *.csv
+recursive-include felixcustom *.html
+recursive-include felixcustom *.ico
+recursive-include felixcustom *.js
+recursive-include felixcustom *.json
+recursive-include felixcustom *.md
+recursive-include felixcustom *.png
+recursive-include felixcustom *.py
+recursive-include felixcustom *.svg
+recursive-include felixcustom *.txt
+recursive-exclude felixcustom *.pyc
